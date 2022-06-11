@@ -9,6 +9,6 @@ for example
     ./fix.sh d43fdc7199a4c9475c9b51ee3e0cc667d55376ff7182befcaecfe6779b6d56cb /dev/bus/usb/003/003
 
 Used tools:
-* [Podman](https://github.com/containers/podman) from Debian
+* [Podman](https://github.com/containers/podman) from Debian repos
 * [boltcli](https://github.com/spacewander/boltcli) (from source, containerized in [docker.io/golang](https://hub.docker.com/_/golang/))
-* [jq](https://github.com/stedolan/jq) from Debian
+* [jq](https://github.com/stedolan/jq) from Debian repos
