@@ -1,5 +1,7 @@
 Script for fixing Podman not being able to start stopped, privileged, containers due to gone-missing `/dev` nodes, e.g. when a USB device was unplugged since container creation.
 
+Requires `jq`.
+
 [podman#4900: a rootless privileged container refuses to start if a host device layout has changed](https://github.com/containers/podman/issues/4900)
 
     ./fix.sh container-id dev-node
