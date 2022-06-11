@@ -10,5 +10,5 @@ for example
 
 Used tools:
 * [Podman](https://github.com/containers/podman) from Debian repos
-* [boltcli](https://github.com/spacewander/boltcli) (from source, containerized in [docker.io/golang](https://hub.docker.com/_/golang/))
+* [boltcli](https://github.com/spacewander/boltcli) from source, containerized in [docker.io/golang](https://hub.docker.com/_/golang/)
 * [jq](https://github.com/stedolan/jq) from Debian repos
